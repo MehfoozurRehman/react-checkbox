@@ -15,7 +15,6 @@ import CheckBox from "react-checkbox-css";
 function App() {
   const [isChecked, setIschecked] = useState(false);
   return (
-    <div className="App">
       <CheckBox
         value={isChecked}
         label="label"
@@ -27,7 +26,6 @@ function App() {
           isChecked ? setIschecked(false) : setIschecked(true);
         }}
       />
-    </div>
   );
 }
 ```
@@ -39,7 +37,6 @@ import CheckBox from "react-checkbox-css";
 function App() {
   const [isChecked, setIschecked] = useState(false);
   return (
-    <div className="App">
       <CheckBox
         value={isChecked}
         label="label"
@@ -52,7 +49,6 @@ function App() {
           isChecked ? setIschecked(false) : setIschecked(true);
         }}
       />
-    </div>
   );
 }
 ```
@@ -64,7 +60,6 @@ import CheckBox from "react-checkbox-css";
 function App() {
   const [isChecked, setIschecked] = useState(false);
   return (
-    <div className="App">
       <CheckBox
         value={isChecked}
         label="label"
@@ -77,7 +72,6 @@ function App() {
           isChecked ? setIschecked(false) : setIschecked(true);
         }}
       />
-    </div>
   );
 }
 ```
