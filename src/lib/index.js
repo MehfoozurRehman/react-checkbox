@@ -10,6 +10,7 @@ const CheckBox = ({
   label,
   labelColor,
   style,
+  ...props
 }) => {
   return (
     <div className="checkbox">
@@ -18,6 +19,7 @@ const CheckBox = ({
         type="checkbox"
         value={value}
         onChange={onChange}
+        {...props}
       />
       <div className="checkbox__content">
         <div
