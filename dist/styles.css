@@ -2,6 +2,7 @@
   position: relative;
   width: fit-content;
   height: fit-content;
+  overflow: hidden;
 }
 .checkbox__input {
   position: absolute;
@@ -26,7 +27,4 @@
 .checkbox__content__label {
   font-size: 14px;
   font-weight: bold;
-}
-.checkbox__input:hover ~ .checkbox__content .checkbox__content__indicator {
-  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
 }
