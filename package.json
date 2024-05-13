@@ -24,16 +24,16 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "react": "^18.2.0"
+    "react": "^18.3.1"
   },
   "scripts": {
     "build": "rm -rf dist && babel src --out-dir dist --copy-files"
   },
   "devDependencies": {
-    "@babel/cli": "^7.23.9",
-    "@babel/core": "^7.23.9",
-    "@babel/preset-env": "^7.23.9",
-    "@babel/preset-react": "^7.23.3",
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
     "babel-preset-minify": "^0.5.2"
   }
 }
