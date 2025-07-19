@@ -1,105 +1,41 @@
-# react-checkbox-css
+# React Checkbox
 
-A checkbox based on react thats easy to customize
+A customizable and easy-to-use checkbox component for React. This package provides a flexible, accessible, and stylish checkbox UI that can be easily integrated into any React project.
 
-## Example
+## Features
 
-![Screenshot](./public/example.gif)
+- Fully customizable styles
+- Accessible and keyboard-friendly
+- Lightweight and fast
+- Easy integration with React projects
+
+## Installation
+
+```bash
+npm install react-checkbox-css
+```
 
 ## Usage
 
-```js
-import React from "react";
-import CheckBox from "react-checkbox-css";
+```jsx
+import Checkbox from 'react-checkbox-css';
 
 function App() {
-  const [isChecked, setIschecked] = React.useState(false);
   return (
-    <CheckBox
-      value={isChecked}
-      label="label"
-      labelColor="#242424"
-      checkedColor="#242424"
-      unCheckedColor="#7fffd4"
-      iconColor="#ffffff"
-      onChange={() => {
-        isChecked ? setIschecked(false) : setIschecked(true);
-      }}
-    />
+    <Checkbox label="Accept Terms" />
   );
 }
 ```
 
-```js
-import React from "react";
-import CheckBox from "react-checkbox-css";
+## Tech Stack
 
-function App() {
-  const [isChecked, setIschecked] = React.useState(false);
-  return (
-    <CheckBox
-      value={isChecked}
-      label="label"
-      labelColor="#242424"
-      checkedColor="#242424"
-      unCheckedColor="#7fffd4"
-      iconColor="#ffffff"
-      style={{ borderRadius: 20 }}
-      onChange={() => {
-        isChecked ? setIschecked(false) : setIschecked(true);
-      }}
-    />
-  );
-}
-```
+- React
+- Babel
 
-```js
-import React from "react";
-import CheckBox from "react-checkbox-css";
+## Author
 
-function App() {
-  const [isChecked, setIschecked] = React.useState(false);
-  return (
-    <CheckBox
-      value={isChecked}
-      label="label"
-      labelColor="#242424"
-      checkedColor="linear-gradient(45deg, #797979, #242424)"
-      unCheckedColor="brown"
-      iconColor="#ffffff"
-      style={{ borderRadius: 20 }}
-      onChange={() => {
-        isChecked ? setIschecked(false) : setIschecked(true);
-      }}
-    />
-  );
-}
-```
+Mehfooz-ur-Rehman
 
-## Props
+## License
 
-Common props you may want to specify include:
-
-- `value` - value of checkbox
-- `label` - set label of checkbox
-- `labelColor` - set color of label of checkbox
-- `checkedColor` - set background color of checkbox when checked
-- `unCheckedColor` - set background color of checkbox when unchecked
-- `iconColor` - set color of check icon
-- `onChange` - onchange function of checkbox
-- `style` - can do custom styling
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-This has a starter project using this package you can test it there
-
-### `npm run build`
-
-Builds the package for production to the `dist` folder.\
+MIT
