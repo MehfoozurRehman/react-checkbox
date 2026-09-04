@@ -16,7 +16,7 @@
   align-items: center;
 }
 .checkbox__content__indicator {
-  width: 25px;
+  min-width: 25px;
   height: 25px;
   display: flex;
   align-items: center;
