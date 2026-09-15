@@ -27,7 +27,7 @@
     "react": "^18.3.1"
   },
   "scripts": {
-    "build": "rimraf dist && babel src --out-dir dist --copy-files"
+    "build": "node api.js && rimraf dist && babel src --out-dir dist --copy-files"
   },
   "devDependencies": {
     "@babel/cli": "^7.29.7",
